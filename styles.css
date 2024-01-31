@@ -1,0 +1,46 @@
+.wp-core-ui .button-primary {
+    background: #332884;
+    border-color: #332884;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #332884;
+}
+
+.wp-core-ui .button-primary:hover {
+    transform: scale(1.05);
+    outline: 2px solid #661b77;
+    background-color: #661b77;
+    box-shadow: 4px 5px 17px -4px #268391;
+}
+
+.wp-core-ui .button-primary:focus {
+    transform: scale(1.05);
+    outline: 2px solid #661b77;
+    background-color: #661b77;
+    box-shadow: 4px 5px 17px -4px #268391;
+}
+
+#form_payment_methods .form-table td {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    flex-direction: column;
+}
+
+#form_payment_methods .form-table th {
+    padding: 15px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
